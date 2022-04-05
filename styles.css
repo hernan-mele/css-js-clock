@@ -1,0 +1,71 @@
+html {
+  background: -webkit-gradient(linear, left top, right top, from(#018ded), to(#fff));
+  background: linear-gradient(to right, #018ded, #fff);
+  text-align: center;
+  font-size: 10px;
+}
+
+html body {
+  margin: 0;
+  font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body .clock {
+  width: 30rem;
+  height: 30rem;
+  border: 20px solid #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin: 50px auto;
+  position: relative;
+  padding: 2rem;
+  -webkit-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px #EFEFEF, inset 0 0 10px #000, 0 0 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px #EFEFEF, inset 0 0 10px #000, 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+html body .clock .clock-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-3px);
+  -webkit-transform: translateY(-3px);
+  -moz-transform: translateY(-3px);
+  -ms-transform: translateY(-3px);
+  -o-transform: translateY(-3px);
+}
+
+html body .clock .clock-face .hand {
+  width: 50%;
+  height: 6px;
+  background: #000;
+  position: absolute;
+  top: 50%;
+  -webkit-transform-origin: 100%;
+          transform-origin: 100%;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transition: all 0.05s;
+  -webkit-transition: all 0.05s;
+  -moz-transition: all 0.05s;
+  -ms-transition: all 0.05s;
+  -o-transition: all 0.05s;
+  -webkit-transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+          transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+/*# sourceMappingURL=styles.css.map */
